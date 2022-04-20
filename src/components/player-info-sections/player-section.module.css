@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.playerSection {
+    height: 30%;
+}
+
+.leader {
+    height: 60%;
+}
+
+.leaderInfo {
+
+}
+
+.leaderImg {
+    block-size: 100%;
+}

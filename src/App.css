@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+    height: 95vh;
+    width: 95vw;
+}
+
+.playerInfoSection {
+    width: 30%;
+    height: 100%;
+    background: #171616;
+}
+
+.boardSection {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.playerSide {
+    height: 50%;
+}
+
+.enemySide {
+    height: 50%;
+}
+
+.deckSection {
+    width: 20%;
+    height: 100%;
+    background: #463e3e;
+    display: flex;
+    flex-direction: column;
+}

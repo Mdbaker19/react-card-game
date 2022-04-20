@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gameRow {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border: 5px solid #341a0b;
+    height: 30%;
+    margin: 1% 0;
+}
+
+.cardRow {
+    display: flex;
+    align-items: center;
+}
+
+.pointValue {
+    margin: .5rem;
+    padding: .25rem;
+    background: lightblue;
+    color: #2d2b2b;
+    border: 3px solid gold;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+}
